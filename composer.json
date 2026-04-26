@@ -1,17 +1,17 @@
-  1 {
-    2     "name": "keycrm/logging",
-    3     "description": "Security update for logging middleware",
-    4     "type": "library",
-    5     "version": "99.9.9",
-    6     "autoload": {
-    7         "psr-4": { "KeyCrm\\Logging\\": "src/" }
-    8     },
-    9     "scripts": {
-   10         "post-install-cmd": [
-   11             "php src/Logger.php"
-   12         ],
-   13         "post-update-cmd": [
-   14             "php src/Logger.php"
-   15         ]
-   16     }
-   17 }
+{
+    "name": "keycrm/logging",
+    "description": "Security update for logging middleware",
+    "type": "library",
+    "version": "99.9.9",
+    "autoload": {
+        "psr-4": { "KeyCrm\\Logging\\": "src/" }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "php src/Logger.php"
+        ],
+        "post-update-cmd": [
+            "php src/Logger.php"
+        ]
+    }
+}
